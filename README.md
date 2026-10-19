@@ -36,9 +36,3 @@ python -m scripts.download_traffic_data --help
 ```
 
 The expected normalized files are `data/<dataset>/values.npy` and `adjacency.npy`, optionally `coordinates.npy`. See the adapters for tensor shapes and temporal splitting. The `datasets/` directory contains Python loaders, not dataset contents.
-
-## Scope and reproducibility
-
-This is a **core-source release**, not the full experiment archive. Datasets, checkpoints, observations, logs, manuscript files, figures, server scripts and experiment queues are excluded. Historical experiment runners reference frozen configurations, labels, schedules or intermediate records that are not bundled here; they are retained as implementation references and are not advertised as standalone commands reproducing the paper's tables. Four archive-only integration checks are explicitly skipped when their excluded artifacts are absent. The included unit tests exercise the core transformations, serialization and STGCN without those archives.
-
-Algorithms are copied from A3. Host-specific project-root constants are made relative to the checkout. `SOURCE_MANIFEST.json` records original and released SHA-256 hashes for each source file. This release does not assign a new license.
