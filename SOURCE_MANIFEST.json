@@ -1,0 +1,462 @@
+{
+  "source_project": "A3",
+  "release_scope": "Core PACE-FL implementations and their import dependencies; no experiment artifacts",
+  "files": [
+    {
+      "path": "attacks/__init__.py",
+      "source_sha256": "6faa41d7a3f9daa951d7b842b58522edff31c72624daa62e5e1414c349b601be",
+      "release_sha256": "6faa41d7a3f9daa951d7b842b58522edff31c72624daa62e5e1414c349b601be",
+      "change": "unchanged"
+    },
+    {
+      "path": "attacks/ed_om_rsr_attack.py",
+      "source_sha256": "d078e160e36f21dd7808b29aaf636654a23f6f6d5990d9cda74638c9d8fc644c",
+      "release_sha256": "25cadc40507d866e8ca0b6f523af0797d544b7a01b52032c15a5b8bd7412edea",
+      "change": "unchanged"
+    },
+    {
+      "path": "attacks/mask_aware_spectral_attack.py",
+      "source_sha256": "4d84d502acecf051a46d8e3a62529b653fea42e07ca56bb98b8c53b43b2621c9",
+      "release_sha256": "4d84d502acecf051a46d8e3a62529b653fea42e07ca56bb98b8c53b43b2621c9",
+      "change": "unchanged"
+    },
+    {
+      "path": "attacks/om_rsr_adaptive_attack.py",
+      "source_sha256": "7f4f0adddc3c4d2230c891a7ffe7819d6adaccbb6a73c353945493421b8edff8",
+      "release_sha256": "7f4f0adddc3c4d2230c891a7ffe7819d6adaccbb6a73c353945493421b8edff8",
+      "change": "unchanged"
+    },
+    {
+      "path": "attacks/rsr_leakage_decomposition.py",
+      "source_sha256": "2a4186fbf389651a95028220a98089620e51524b3f19ce1c80a910dcc245de3e",
+      "release_sha256": "05c312b68c1ee2b23280b268af5952ea6e1bb722a780961c2f0ac778ffd846e9",
+      "change": "unchanged"
+    },
+    {
+      "path": "attacks/spectral_leakage/__init__.py",
+      "source_sha256": "599433a9ca2ea975937c4aaa6d418b4843eb857dd9803ed949ed31503be56149",
+      "release_sha256": "599433a9ca2ea975937c4aaa6d418b4843eb857dd9803ed949ed31503be56149",
+      "change": "unchanged"
+    },
+    {
+      "path": "attacks/spectral_leakage/attack_dataset.py",
+      "source_sha256": "29a1437d9926795bf75bcebb555fc442deef9a72ff27b706cc38f831edce078a",
+      "release_sha256": "29a1437d9926795bf75bcebb555fc442deef9a72ff27b706cc38f831edce078a",
+      "change": "unchanged"
+    },
+    {
+      "path": "attacks/spectral_leakage/collector.py",
+      "source_sha256": "b8fdcd68a4aa9571bc6e9e7d2b791b080f9790a183754066ffdb9ec5fa6e5588",
+      "release_sha256": "b8fdcd68a4aa9571bc6e9e7d2b791b080f9790a183754066ffdb9ec5fa6e5588",
+      "change": "unchanged"
+    },
+    {
+      "path": "attacks/spectral_leakage/fingerprint.py",
+      "source_sha256": "7d1b00edbdc4555d7edb93b6affe52f5533d0b4913804557bf5da25dfef901b7",
+      "release_sha256": "7d1b00edbdc4555d7edb93b6affe52f5533d0b4913804557bf5da25dfef901b7",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/__init__.py",
+      "source_sha256": "c81803d35affd8bf175d7a275a2b23e28c98077d90e8932544cc5755428e19eb",
+      "release_sha256": "c81803d35affd8bf175d7a275a2b23e28c98077d90e8932544cc5755428e19eb",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/error_feedback.py",
+      "source_sha256": "51dc6f20b2c176ce9de974131241486e8548086e0da3d3317542781aa13d95bf",
+      "release_sha256": "51dc6f20b2c176ce9de974131241486e8548086e0da3d3317542781aa13d95bf",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/event_trigger.py",
+      "source_sha256": "01d32cd5600547f50b332e5d4000032e6ae294877f91e0e2ef5d55dc51d352fb",
+      "release_sha256": "01d32cd5600547f50b332e5d4000032e6ae294877f91e0e2ef5d55dc51d352fb",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/exact_dimension_orthogonal_mixing.py",
+      "source_sha256": "58b61701ac55ae806756ab2b3104dd8cbb4384553387e0ee81cd46cd475a80a6",
+      "release_sha256": "78023ddc80a55a044c0856734ce1bc1743e5f160f292cc2734f6214485df298b",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/implicit_mask_rsr.py",
+      "source_sha256": "5c7c18e081563c978c55b76721fdc8d6ddf585f42a14a62e2acff526a7a177ec",
+      "release_sha256": "5c7c18e081563c978c55b76721fdc8d6ddf585f42a14a62e2acff526a7a177ec",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/orthogonal_spectral_mixing.py",
+      "source_sha256": "cc18e40ba29a577a9bc5be246aca21add5642729a3e652c294725054906bab85",
+      "release_sha256": "e3835ccf4563022b2079533d4209e7520d9571eebbcc4388a17e6da1b94442f3",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/profiler.py",
+      "source_sha256": "7c19a9493db2a851ea441709099509085fd6630681fbf75012ec94b895bf343a",
+      "release_sha256": "7c19a9493db2a851ea441709099509085fd6630681fbf75012ec94b895bf343a",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/randomized_spectral_release.py",
+      "source_sha256": "ceddb6369064257369b25079f88a00aca3a5d283b0801b54a52d6ce0a51642d6",
+      "release_sha256": "ceddb6369064257369b25079f88a00aca3a5d283b0801b54a52d6ce0a51642d6",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/serializer.py",
+      "source_sha256": "eff981043f2acb2a82b9a6d2bda8eff24ffdbc94384b82d1ca15176a4bbc0235",
+      "release_sha256": "eff981043f2acb2a82b9a6d2bda8eff24ffdbc94384b82d1ca15176a4bbc0235",
+      "change": "unchanged"
+    },
+    {
+      "path": "communication/sparse_sync.py",
+      "source_sha256": "96ccafbc143c7646ea51acadd32d3662d0c3eea4517fa0ee694494db6bdeed61",
+      "release_sha256": "96ccafbc143c7646ea51acadd32d3662d0c3eea4517fa0ee694494db6bdeed61",
+      "change": "unchanged"
+    },
+    {
+      "path": "datasets/__init__.py",
+      "source_sha256": "9a7b677b488fc8f5e1b0f277981010039248c5728baeffabbd6fc0240ce570f5",
+      "release_sha256": "9a7b677b488fc8f5e1b0f277981010039248c5728baeffabbd6fc0240ce570f5",
+      "change": "unchanged"
+    },
+    {
+      "path": "datasets/client_partition.py",
+      "source_sha256": "3c0a95caf256fd450e74f5350b51b7c4d92d043a9ce6a1f78e9785095e103626",
+      "release_sha256": "3c0a95caf256fd450e74f5350b51b7c4d92d043a9ce6a1f78e9785095e103626",
+      "change": "unchanged"
+    },
+    {
+      "path": "datasets/dynamic_graph.py",
+      "source_sha256": "df5c978f83b46865cb6255d12d923dccce07e604f693860ef085d0a9ab9cad2d",
+      "release_sha256": "df5c978f83b46865cb6255d12d923dccce07e604f693860ef085d0a9ab9cad2d",
+      "change": "unchanged"
+    },
+    {
+      "path": "datasets/stg_utils.py",
+      "source_sha256": "fb34911b99ef9bae6227865829a152e651159eeab7205ed1fce61455bf056a60",
+      "release_sha256": "fb34911b99ef9bae6227865829a152e651159eeab7205ed1fce61455bf056a60",
+      "change": "unchanged"
+    },
+    {
+      "path": "datasets/traffic.py",
+      "source_sha256": "49cf22b3dca72b1d873983ce9887cc2a0c833ec58706776110a8c177599556f0",
+      "release_sha256": "49cf22b3dca72b1d873983ce9887cc2a0c833ec58706776110a8c177599556f0",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/__init__.py",
+      "source_sha256": "25e30d3e269a5602b5fefa482d528d6b7ba215bb0cb74d3e77f4cfc102b0d20a",
+      "release_sha256": "25e30d3e269a5602b5fefa482d528d6b7ba215bb0cb74d3e77f4cfc102b0d20a",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/common.py",
+      "source_sha256": "0df64ea57a9cee6bac0901611ddf9c7a7edd35796d0c1303022e418628fc8fdf",
+      "release_sha256": "0df64ea57a9cee6bac0901611ddf9c7a7edd35796d0c1303022e418628fc8fdf",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/ed_om_rsr_multiseed_common.py",
+      "source_sha256": "022a408ce5e4f08431a7d49e28cadb83a56b94b35d1c33357008d14aace39ac1",
+      "release_sha256": "022a408ce5e4f08431a7d49e28cadb83a56b94b35d1c33357008d14aace39ac1",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_ellipsoidal_clipping_sanity.py",
+      "source_sha256": "b499838e05f530eb92d08c9d0d3360ffbc12f8fe016727a24b1aeba587df4504",
+      "release_sha256": "b499838e05f530eb92d08c9d0d3360ffbc12f8fe016727a24b1aeba587df4504",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_locked_seed_privacy_attack.py",
+      "source_sha256": "516594b13f1ba44bb32cd40cc1ce547b50eb8388aba8ab4a19e10bd8df1c69b2",
+      "release_sha256": "516594b13f1ba44bb32cd40cc1ce547b50eb8388aba8ab4a19e10bd8df1c69b2",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_mask_aware_adaptive_attack.py",
+      "source_sha256": "7046fe4fb964cc345e396de2cfdb88438cc39efe6fe371562b2122447cf9cc73",
+      "release_sha256": "7046fe4fb964cc345e396de2cfdb88438cc39efe6fe371562b2122447cf9cc73",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_matched_reduced_release_frontier.py",
+      "source_sha256": "9405954587086c50216c826110551e62c8ac1497d7b0312632b81f6d96ae6db6",
+      "release_sha256": "9405954587086c50216c826110551e62c8ac1497d7b0312632b81f6d96ae6db6",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_metrla_cross_dataset_attack.py",
+      "source_sha256": "86241c1b6f9f57ae54b0fe371f8b57d1086c324417fc8aca04c126f54bad77e1",
+      "release_sha256": "86241c1b6f9f57ae54b0fe371f8b57d1086c324417fc8aca04c126f54bad77e1",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_privacy_utility_frontier.py",
+      "source_sha256": "24aaf812ce353d3a369ad3a22d9f3800a9afb12dcb22c1e1ff0b313553b7f6dd",
+      "release_sha256": "24aaf812ce353d3a369ad3a22d9f3800a9afb12dcb22c1e1ff0b313553b7f6dd",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_public_ellipsoid_dp_sanity.py",
+      "source_sha256": "4993ee76d49d59a1772cbc4af0e483e593f1ec87809dd425e19d7677b97cf0dd",
+      "release_sha256": "4993ee76d49d59a1772cbc4af0e483e593f1ec87809dd425e19d7677b97cf0dd",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_randomized_spectral_release_sanity.py",
+      "source_sha256": "d8decbffe82e1dbe95e640772f0f67b0af1c45f94010c6447831e953c92758f9",
+      "release_sha256": "d8decbffe82e1dbe95e640772f0f67b0af1c45f94010c6447831e953c92758f9",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_representative_privacy_attack.py",
+      "source_sha256": "bd0d5b227579d5c171b2aae5e3b1351b0fccde8a01f842f57a89f0be927ab21f",
+      "release_sha256": "bd0d5b227579d5c171b2aae5e3b1351b0fccde8a01f842f57a89f0be927ab21f",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/exp_spectral_norm_audit.py",
+      "source_sha256": "bf17a6d3b9a90f4d9d67ef97fc008e6a733daec5e85b5bbe49f472cb16ed38cb",
+      "release_sha256": "bf17a6d3b9a90f4d9d67ef97fc008e6a733daec5e85b5bbe49f472cb16ed38cb",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/finalize_ed_om_rsr_multiseed.py",
+      "source_sha256": "35e5559f6882fc60f17310adb3ad662b0cb6b6387a25d8249a42945eb74c2272",
+      "release_sha256": "35e5559f6882fc60f17310adb3ad662b0cb6b6387a25d8249a42945eb74c2272",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments/finalize_metrla_cross_dataset.py",
+      "source_sha256": "2068e9c554a19fc13b85915be25a69f77ff1be4c5fbddee7e2a92114f95ebd9f",
+      "release_sha256": "2068e9c554a19fc13b85915be25a69f77ff1be4c5fbddee7e2a92114f95ebd9f",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments_revision/attack_defense_pilot_20260907/run_pilot.py",
+      "source_sha256": "724a0a861eaf86f81d98d3933be3995a3612394722bf83eaefba6432863dd4e2",
+      "release_sha256": "d5ce3e39245f1a916f378309d7dd1eefaea02d20d817e2a6d380cd9f80918c9b",
+      "change": "portable project root"
+    },
+    {
+      "path": "experiments_revision/convergence_100r_20c_3e_20260907/run.py",
+      "source_sha256": "c9d99d26cf61d96d652e1cc6d31bdaf740aac08f2cdb3a2bd272bec213628563",
+      "release_sha256": "fbf5000dce21e9d079b97fe74a331c8c4e31b96a53aaff4dee710fecdfb45a08",
+      "change": "portable project root"
+    },
+    {
+      "path": "experiments_revision/directional_projection_pilot_20260907/run_projection.py",
+      "source_sha256": "8fc8f2c210fe07d6430057c5fc57543866f317d4b08db7b341bc4e03493b0915",
+      "release_sha256": "8fc8f2c210fe07d6430057c5fc57543866f317d4b08db7b341bc4e03493b0915",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments_revision/exp19_frozen_update/run_exp19.py",
+      "source_sha256": "d77c3143ab450e31d36105629fdf9ee59eccc4b2f0db34ba9e00ac228abe0478",
+      "release_sha256": "d77c3143ab450e31d36105629fdf9ee59eccc4b2f0db34ba9e00ac228abe0478",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments_revision/task_online_convergence_20260907/attack.py",
+      "source_sha256": "eb7f306121b58abfc541996cc7fea2b6602aec683611237547f980ba2dd7f93c",
+      "release_sha256": "eb7f306121b58abfc541996cc7fea2b6602aec683611237547f980ba2dd7f93c",
+      "change": "unchanged"
+    },
+    {
+      "path": "experiments_revision/task_online_convergence_20260907/train.py",
+      "source_sha256": "68d47038e51b3cee097059a98d4afd0511afe0b25922085cc0ae1c31f186b41e",
+      "release_sha256": "2527d822089426c5df6db731b108694c2108734d68492b8510b1ea06935a2c9e",
+      "change": "portable project root"
+    },
+    {
+      "path": "federated/__init__.py",
+      "source_sha256": "b34cda13f7df3dfc44eac8a601b75cc4f0dc3b3a887d994646f230377775610f",
+      "release_sha256": "b34cda13f7df3dfc44eac8a601b75cc4f0dc3b3a887d994646f230377775610f",
+      "change": "unchanged"
+    },
+    {
+      "path": "federated/aggregation.py",
+      "source_sha256": "a21f846f93b7e2597fe61e3df620c543f74d2c34a99337e0509477bb303a1a5a",
+      "release_sha256": "a21f846f93b7e2597fe61e3df620c543f74d2c34a99337e0509477bb303a1a5a",
+      "change": "unchanged"
+    },
+    {
+      "path": "federated/evaluation.py",
+      "source_sha256": "cf388bcaef88f6745ee9dd9688d40aa9f6602b1abb7f831dbba2d6847647a915",
+      "release_sha256": "cf388bcaef88f6745ee9dd9688d40aa9f6602b1abb7f831dbba2d6847647a915",
+      "change": "unchanged"
+    },
+    {
+      "path": "federated/metrics.py",
+      "source_sha256": "b2b081476032ee0a5c652a7bff904b88642cec8092dbb76f85c368f530443032",
+      "release_sha256": "b2b081476032ee0a5c652a7bff904b88642cec8092dbb76f85c368f530443032",
+      "change": "unchanged"
+    },
+    {
+      "path": "federated/stg_client.py",
+      "source_sha256": "a2ac343b4ece84ec13f044bffa0c51b58b8198ae08e8f47e3f38037aa261f3a7",
+      "release_sha256": "a2ac343b4ece84ec13f044bffa0c51b58b8198ae08e8f47e3f38037aa261f3a7",
+      "change": "unchanged"
+    },
+    {
+      "path": "federated/stg_server.py",
+      "source_sha256": "abc27bce853c00cb4262a28d97e3ea671e0938f2a0b8938fe7e61d219967ae27",
+      "release_sha256": "abc27bce853c00cb4262a28d97e3ea671e0938f2a0b8938fe7e61d219967ae27",
+      "change": "unchanged"
+    },
+    {
+      "path": "models/__init__.py",
+      "source_sha256": "e0e1815eef90cd5aa199b08ac4eb2979c976f2baf42d65c18208ded7c4e9a4c8",
+      "release_sha256": "e0e1815eef90cd5aa199b08ac4eb2979c976f2baf42d65c18208ded7c4e9a4c8",
+      "change": "unchanged"
+    },
+    {
+      "path": "models/stgcn.py",
+      "source_sha256": "bfae61b0ff1e55f8bfb98dd451612a5199c2286e86e0f118d9b7f2429776b8a9",
+      "release_sha256": "bfae61b0ff1e55f8bfb98dd451612a5199c2286e86e0f118d9b7f2429776b8a9",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/__init__.py",
+      "source_sha256": "ea55092f727072f9d09b0ccd6ad56a9de491e64190ede34040e90cc867d2f29b",
+      "release_sha256": "ea55092f727072f9d09b0ccd6ad56a9de491e64190ede34040e90cc867d2f29b",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/accountant.py",
+      "source_sha256": "e442d51e24d2b17f1c9d6b462d83feaf345e9ba41be964c938987354dfb021c1",
+      "release_sha256": "e442d51e24d2b17f1c9d6b462d83feaf345e9ba41be964c938987354dfb021c1",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/anisotropic_gaussian.py",
+      "source_sha256": "c0ceb9a713f82ae0412e2629696ee4f5f6bfa4a3ea0cc10b9dd70c36c6b6592b",
+      "release_sha256": "c0ceb9a713f82ae0412e2629696ee4f5f6bfa4a3ea0cc10b9dd70c36c6b6592b",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/central_spectral_dp.py",
+      "source_sha256": "ad389baa5a9f9dc3eb62988ede1c4b361d509720ccfdea1b298ff4d5fc68c504",
+      "release_sha256": "ad389baa5a9f9dc3eb62988ede1c4b361d509720ccfdea1b298ff4d5fc68c504",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/clipping.py",
+      "source_sha256": "29d093f8e321e4cf9943093612ee77542468170c2906996cb14b1e17efaaa9a5",
+      "release_sha256": "29d093f8e321e4cf9943093612ee77542468170c2906996cb14b1e17efaaa9a5",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/dp_fedavg.py",
+      "source_sha256": "5f28c00d88ef090834b70ff1cfc1d5bb8eb2b0ba14a20f678e8a074c8058fe9f",
+      "release_sha256": "5f28c00d88ef090834b70ff1cfc1d5bb8eb2b0ba14a20f678e8a074c8058fe9f",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/ellipsoidal_clipping.py",
+      "source_sha256": "abf8c48431ee38c5f9d50eac8f6225a9c98e0cdcb10cfda34b2f97a232107bb8",
+      "release_sha256": "abf8c48431ee38c5f9d50eac8f6225a9c98e0cdcb10cfda34b2f97a232107bb8",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/fixed_spectral_projection.py",
+      "source_sha256": "fc2a554e1b98520df91d369d48d7e8b473b1cc72854423d274a1fd56579edab9",
+      "release_sha256": "fc2a554e1b98520df91d369d48d7e8b473b1cc72854423d274a1fd56579edab9",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/pjsdp_accountant.py",
+      "source_sha256": "29ece21b5736495ee494888ad58fe98d8062a6d32c713cc95444b7919f1da799",
+      "release_sha256": "29ece21b5736495ee494888ad58fe98d8062a6d32c713cc95444b7919f1da799",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/projected_joint_spectral_dp.py",
+      "source_sha256": "89577a5edb4a08c6306d82b409734ffba0ad6b216167ed6ec9d71994947439c8",
+      "release_sha256": "89577a5edb4a08c6306d82b409734ffba0ad6b216167ed6ec9d71994947439c8",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/spectral_dp.py",
+      "source_sha256": "c51a8a038144de528e747560b856179a84a6020ff9ff8d2e6d4484eeb50e1c45",
+      "release_sha256": "c51a8a038144de528e747560b856179a84a6020ff9ff8d2e6d4484eeb50e1c45",
+      "change": "unchanged"
+    },
+    {
+      "path": "privacy/spectral_group_clipping.py",
+      "source_sha256": "96be694f0e794917beabfaa63127d818f8577e6cc25d182494ce2d956f811b37",
+      "release_sha256": "96be694f0e794917beabfaa63127d818f8577e6cc25d182494ce2d956f811b37",
+      "change": "unchanged"
+    },
+    {
+      "path": "scripts/download_traffic_data.py",
+      "source_sha256": "6ac09c2c1aca4f69f2e76f14a0242bb9a1177d6f2a5761e6e1f2c564ba41578e",
+      "release_sha256": "6ac09c2c1aca4f69f2e76f14a0242bb9a1177d6f2a5761e6e1f2c564ba41578e",
+      "change": "unchanged"
+    },
+    {
+      "path": "scripts/finalize_experiment14.py",
+      "source_sha256": "d7a7b3f4a6a8798e44274b52e2c5078ebc60c0b100b92924a10d5d3a7a15b770",
+      "release_sha256": "e5516985349a4874de1ce7817677a2cd7f7d2fe3954b64fcd6331848f9d392b4",
+      "change": "portable project root"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "source_sha256": "f530f77f360f61dfadeeb0aca632d5da06116c3d7e6c4f9f01a7dc212c00be47",
+      "release_sha256": "f530f77f360f61dfadeeb0aca632d5da06116c3d7e6c4f9f01a7dc212c00be47",
+      "change": "unchanged"
+    },
+    {
+      "path": "spectral/__init__.py",
+      "source_sha256": "e3ed30bf6ab105268e089354adbcded3d3001434fa8e1ed7de7c97cd26578b29",
+      "release_sha256": "e3ed30bf6ab105268e089354adbcded3d3001434fa8e1ed7de7c97cd26578b29",
+      "change": "unchanged"
+    },
+    {
+      "path": "spectral/graph_spectral.py",
+      "source_sha256": "f65c6abcc9f81d089c10fc0d16cfa8913860c9fcee0117dd632e0627388f8974",
+      "release_sha256": "f65c6abcc9f81d089c10fc0d16cfa8913860c9fcee0117dd632e0627388f8974",
+      "change": "unchanged"
+    },
+    {
+      "path": "spectral/spectral_groups.py",
+      "source_sha256": "1fe0080be4abbdf39ea3590268452bb8bca928f149df6794020a8a5a0a8563ee",
+      "release_sha256": "1fe0080be4abbdf39ea3590268452bb8bca928f149df6794020a8a5a0a8563ee",
+      "change": "unchanged"
+    },
+    {
+      "path": "spectral/temporal_spectral.py",
+      "source_sha256": "070b97d2b1423847c503e83d2d6aadc350b824f959c764f446daff7f47f4aaa7",
+      "release_sha256": "070b97d2b1423847c503e83d2d6aadc350b824f959c764f446daff7f47f4aaa7",
+      "change": "unchanged"
+    },
+    {
+      "path": "tests/test_exact_dimension_orthogonal_mixing.py",
+      "source_sha256": "dbd8f79556698722a30487fe8a6cf6ff099981681b2a438106e55a0690408d96",
+      "release_sha256": "df04f31e48564c8c16e3dc0e8f3ee7823ad48dbb8aa4710b8bbb70d9827d4dff",
+      "change": "skip archive-only integration checks when excluded artifacts are absent"
+    },
+    {
+      "path": "tests/test_implicit_mask_rsr.py",
+      "source_sha256": "eb976d5c24671201c736435d20d571cc469e63da22bb4bbea8736ab8016c9a26",
+      "release_sha256": "6b1cb740ddab48235f01bcc8123035c7c3da77decf56a4999d0e49813a903d66",
+      "change": "skip archive-only integration checks when excluded artifacts are absent"
+    },
+    {
+      "path": "tests/test_spectral_transform.py",
+      "source_sha256": "0d8cc2e6419817af7318094ff3b97fcc688d66514f77fbf27045869be6651372",
+      "release_sha256": "0d8cc2e6419817af7318094ff3b97fcc688d66514f77fbf27045869be6651372",
+      "change": "unchanged"
+    },
+    {
+      "path": "tests/test_stgcn.py",
+      "source_sha256": "75b9ef3d1de6d781cf5f73e74166313a70084426da8ee89eefdf32901b0caca7",
+      "release_sha256": "75b9ef3d1de6d781cf5f73e74166313a70084426da8ee89eefdf32901b0caca7",
+      "change": "unchanged"
+    }
+  ]
+}
