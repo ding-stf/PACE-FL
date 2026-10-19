@@ -2,8 +2,6 @@
 
 Core code for **PACE-FL: Privacy-Aware Efficient Federated Traffic Forecasting with Sparse Model Release**.
 
-This release is extracted from the A3 traffic-forecasting project. A2 is a separate federated speech-recognition project and is not included.
-
 ## Main implementation
 
 | Paper component | Source |
